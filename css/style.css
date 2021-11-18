@@ -1,0 +1,105 @@
+.grid {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word
+   
+  }
+  
+  #hero-text {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin-top: 10px;
+    position: absolute;
+  }
+  
+  #hero-text2 {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word;
+    float: right;
+    width: 300px;
+    height: 400px;
+     margin-top: 10px;
+     position: relative;
+  }
+  
+  #trybutton {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    float: left;
+  }
+  
+  #footer-text {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    text-align: left;
+    
+  }
+  
+  #hero {
+  width: 100%;
+  height: 600px;
+  display:block;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  }
+  
+  #api-text {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    text-align: right;
+    float: right;
+    
+  }
+  
+  #ran {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word;
+    margin-top: 10px;
+  }
+  
+  #button {
+    border-style: double;
+    border-width: 1px;
+    border-color: black;
+    word-wrap: break-word
+  }
+  
+  #results {
+    margin-top: 10px;
+    width: 100px;
+    float: right;
+    text-align: center;
+  }
+  
+  .profile {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .row>* !important {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
