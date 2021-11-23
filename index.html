@@ -5,64 +5,84 @@
     <meta name="viewport" content="width=device-width">
     <title>Recipe Generator</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/4b008a60ff.js" crossorigin="anonymous"></script>
   </head>
   <body>
-<h2>Recipe Generator</h2>
-<div style="height: 100px;" class="row g-0 p-1">
-<nav style="height: 100px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
-<div style="height: 100px;" class="container-fluid">
-<a class="navbar-brand" href="#"></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
-aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-<ul class="navbar-nav">
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-data-bs-toggle="dropdown" aria-expanded="false">
-Navigation
-</a>
-<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-<li><a href="index.html" class="dropdown-item">Home</a></li>
-<li><a href="recipe.html" class="dropdown-item">Recipe</a></li>
-<li><a href="about.html" class="dropdown-item">About</a></li>
-<li><a href="storage.html" class="dropdown-item">Saved Recipes</a></li>
-</ul></li></div></div></nav>
-<div class="containiner">
-  <img id="hero" src="img/hero.jpg">
+    <header>
+      <img src="img/purple.jpg">
+<!-- Naviation bar -->
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="recipe.html">Recipe</a>
+  <a href="storage.html">Saved Recipe</a>
 </div>
-
-
-
-<div class="containier-fluid">
-<p id="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quae ullam velit quod unde, repellendus sit? Omnis, pariatur in, aliquam, rem officia laborum quas ut autem nesciunt officiis voluptatum deleniti!</p>
-
-<p id="hero-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ab quae, ipsam in dolor quidem earum neque fuga? Numquam dicta doloremque cupiditate nulla animi in minus ea. Adipisci, tempora amet!</p>
-<br>
+</header>
+<div id="containiner">
 <div>
-  </div>
+  <img id="hero" src="img/Cover.jpg">
 </div>
+
+
+
+
+<div id="containiner" class="containier-fluid">
+<p id="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quae ullam velit quod unde, repellendus sit? Omnis, pariatur in, aliquam, rem officia laborum quas ut autem nesciunt officiis voluptatum deleniti!</p>
+ </div>
+<div>
+<p id="hero-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ab quae, ipsam in dolor quidem earum neque fuga? Numquam dicta doloremque cupiditate nulla animi in minus ea. Adipisci, tempora amet!</p>
+</div>
+<br>
+
+ 
+
 <div class="containier-fluid">
 <a href="recipe.html"><p id="trybutton">Try it now!</a></p>
 </div>
 
-<footer>
-  <div class="containier">
-      <p id="footer-text">&copy; <em id="date">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iure facilis animi cupiditate Fuga? <em id="api-text">API used: TheMealDB</em></p> 
-      
-    </div>
+
+
+ 
     
-</footer>
-    <script src="js/script.js"></script>
-    <script>
-     function todayDate(){
-        var d = new Date();
-        var n = d.getFullYear() + "  ";
-        return document.getElementById("date").innerHTML = n;
-      }
-   </script>
+
+
+
+    <footer class="site-footer" style="margin-top: 550px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+ 
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li> <a class="active" href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="recipe.html">Recipe</a></li>
+              <li><a href="storage.html">Saved Recipe</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <em id="api-text">API used: TheMealDB</em>
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Recipe Generator</a>.
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+   </div>
+   </footer>
   </body>
 </html>
