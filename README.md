@@ -1,6 +1,6 @@
 # Recipe-Generator-
 
-When the user click on a button, it gives a random generated receipt
+When the user click on a button, it gives a random generated recipe
 
 Created by David Stokes, and Cedric Vallieu.
 
